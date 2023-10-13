@@ -6,5 +6,12 @@ This project takes the efforts in descriptor-free models one step forward and tr
 
 Referring to the paper "[Descriptor Free QSAR Modeling Using Deep Learning With Long Short-Term Memory Neural Networks](https://www.frontiersin.org/articles/10.3389/frai.2019.00017/full)" published by Chakravarti SK and Alla SRM, we take a further step to develop the model using the GRU component to achieve a comparable result.
 
+This repo contains:
+
+
+
+## Data
+The dataset we have chosen to use is the Inhibition of P. falciparum Dd2 from [PubChem](https://pubchem.ncbi.nlm.nih.gov/bioassay/2302). It is a list of SMILES of molecules that are potential inhibitors for P. falciparum Dd2 along with their CID, SID, activity, and inhibition. A drug is classified as active if the inhibition is over 50%. There are a total of 13,533 data points in this dataset.
+
 ## Contributors
 Roger Chang, Ayush Shetty
